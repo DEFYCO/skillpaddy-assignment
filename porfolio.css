@@ -1,0 +1,650 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Playfair+Display:wght@600&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+   }
+ 
+
+   .first-section{
+    background: url(./img/Port-background.png);
+    width:134vw;
+    height: 90vh;
+    position: relative;
+   display: block;}
+
+
+   .first-sectionpadding{
+    padding: 3rem 5.5rem;
+ }
+ 
+  .nav-line{
+    display: inline-flex;
+    gap: 1.5rem;
+    list-style:none ;
+    text-align: center;
+    top: 4.5rem;
+    position: absolute;
+    left: 26.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14.5px;
+    line-height: 90%;}
+
+ 
+
+ a{
+    color: white;
+    text-decoration: none;}
+ 
+
+
+ a:hover{
+    color:  #808080;
+    text-decoration: underline;
+
+ }
+
+ a:active{
+    font-weight: 600;
+ }
+ .left-side{
+    left: 70rem;
+    bottom: 30.9rem;
+    position: absolute;
+ }
+
+ i{
+    color: white;
+
+ }
+
+ button{
+    color: white;
+    background: none;
+    border-radius: 9px;
+    border: solid white 2px;
+    padding:15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+   font-size: 14px;
+   line-height: 90%;
+
+ }
+
+ .nav-body{
+    text-align: center;
+    top: 17rem;
+    color: white;
+    position: absolute;
+    left: 30rem;    
+ }
+
+ .nav-body h2{ 
+    font-family: 'Playfair Display' ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    left: 2.7rem;
+    line-height: 115%;  
+ }
+
+ .fff{
+   background: url(./img/Rectangle\ 20\ \(2\).png);
+   position: absolute;
+   width: 1440px;
+   height: 895px;
+   top:600px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+  padding: 2rem 3rem;
+ }
+    
+ .portfolio{
+      width: 392px;
+      height: 350px;
+      border: 1px solid #BFBFBF;
+      border-radius: 10px;
+      position: relative;
+      top: 3rem;
+      margin: 5px 0px 2px;
+
+ }
+
+ .portfolio i{
+   color: rgb(100, 99, 99);
+   position: absolute;
+   left: 2rem;
+   top:3rem;
+ }
+
+ .portfolio h2{
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+color: #000000;
+width: 286px;
+margin: 33px;
+position: relative;
+top: 3rem;
+ }
+
+ .portfolio h3{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+width: 276px;
+left: 33px;
+position: relative;
+top: 2rem;
+ }
+
+
+ 
+ .Middlesection{ position: absolute;
+   bottom: 45rem;
+  
+    
+ }
+ .WORKS h3{
+   position: absolute;
+   width: 181px;
+   height: 18px;
+   left: 50px;
+   top: 1591px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 90%;
+   text-align: center;
+   color: #808080;
+   
+   }
+ .WORKS h2{ 
+      position: absolute;
+      width: 386px;
+      height: 59px;
+      left: 48px;
+      top: 1629px;
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 123.3%;
+      color: #000000;
+
+  }
+
+
+  .selected-work{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   padding-right: 10%;
+   gap: 3rem;
+   position: absolute;
+   top: 1784px;
+   left: 2.6rem;
+   
+  }
+
+  .area-section{
+   position: absolute; 
+   display: none;
+   
+ }
+
+
+  .area-section h2{
+   color: white;
+   font-size: 2rem;
+   left: 4.5rem;
+   bottom: 12rem;
+   position: relative;
+   
+  }
+
+  .ff{  
+   display: flex;
+   gap: 1rem;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 4rem;
+   left: 1rem;
+
+  }
+
+  .ff1{  
+   display: flex;
+   gap: 1rem;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 4rem;
+   left: 1rem;
+
+  }
+
+  .ff2{  
+   display: flex;
+   gap: 1rem;
+   text-transform: uppercase;
+   position: absolute;
+   bottom:4rem;
+   left: 1rem;
+
+  }
+
+  .ff3{  
+   display: flex;
+   gap: 1rem;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 4rem;
+   left: 1rem;
+
+  }
+
+  .ff4{  
+   display: flex;
+   gap: 1rem;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 4rem;
+   left: 1rem;
+
+  }
+
+  .ff5{  
+   display: flex;
+   gap: 1rem;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 6.5rem;
+   left: 1rem;
+
+  }
+  
+  .area-section p{
+   background: #505050;
+   color: white;
+   border-radius: 17px;
+   font-size: 12px;
+   padding: 5px 9px;
+   bottom: 1rem;
+   left: 1.9rem;
+  }
+
+ .effect:hover .area-section{
+   display:block;
+ }
+
+
+ .selected-work img:hover{
+   transform: scale(1.1);
+   transition: opacity 1s,transform 1s;
+   animation: zoom-out right s ease infinite; 
+ }
+ 
+
+ .effect:hover img{
+   box-shadow: 10px 10px 5px #888888;
+   -moz-box-shadow: 0px 10px 5px #888888;
+ -webkit-box-shadow: 0px 10px 5px #888888; 
+ border-radius: 13px;  
+  
+ }
+
+.left{
+   top: 164rem;
+   position: relative;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 560;
+   font-size: 16px;
+   text-align: center;
+   color: #161515;
+   text-transform: uppercase;
+   left: 73rem;
+   position: absolute;
+ }
+
+
+#arrow{ color: black;}
+
+.flex{
+   display: inline-flex;
+   bottom:162rem;
+   gap: 1rem;
+   position: absolute;
+   text-transform: uppercase;
+   list-style-type: none;
+   left: 13px;
+  
+  
+   }
+   .kk{
+      width: 32px;
+      height: 13px;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 90%;
+      text-align: center;
+      color: #808080;
+      text-decoration: none;
+
+   }
+   .kk:hover{
+      color: #CC9933;
+   }
+
+   .project{
+      background: url(./img/background2.png);
+      position: absolute;
+      width: 1440px;
+      height: 798px;
+      top: 2728px;
+
+      display: block;
+    
+   }
+   
+   
+   .project h2{
+      font-family: 'Playfair Display';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 123.3%;
+      color: #FFFFFF;
+      position: absolute;
+      left: 565px;
+      top: 106px;
+      }
+
+      form{
+         top:14rem;
+         left: 30rem;
+         position: absolute;
+       }
+      input{
+         background: #FFFFFF;
+         border-radius: 8px;
+         border: none;
+         width: 529px;
+         height: 60px;
+         text-align: right;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 19px;
+         
+      }
+      
+      textarea{
+           
+            width: 529px;
+            height: 127px;
+            left: 459px;
+            top: 4285px;
+            background: #FFFFFF;
+            border-radius: 8px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #808080;
+      }
+      input::placeholder{ 
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 19px;
+         color: #808080;
+         left: 3rem;
+         position: absolute;
+         top: 1rem;}
+      
+      
+      
+         #btn{
+            position: absolute;
+            left:1rem;
+            color: rgb(148, 144, 144);
+            top:1.2rem;
+           
+         }
+      
+         #btn1{
+            position: absolute;
+            left:1rem;
+            color: rgb(148, 144, 144);
+            top:6.5rem;
+           
+         }
+      
+         #btn2{
+            position: absolute;
+            left:1rem;
+            color: rgb(148, 144, 144);
+            top:11.8rem;
+           
+         }
+      
+      
+      
+      input[type=submit] {
+        
+         padding: 0 28px;
+         gap: 10px;
+         position: absolute;
+         width: 177px;
+         height: 60px;
+         left: 145px;
+         top: 422px;
+         background: white;
+         border: 2px solid #FFFFFF;
+         border-radius: 8px;
+         text-transform: uppercase;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 550;
+         font-size: 16px;
+         line-height: 90%;
+         color: #050505;
+           
+             
+      }
+      input:focus {
+        
+         border:  none;}
+      
+      
+      #arrows{color: black;
+         top: 28.2rem;
+         left: 18.5rem;
+         position: absolute;
+         
+
+
+}
+
+.subscribe{
+   background: url(./img/Rectangle\ 25.png);
+   position: absolute;
+   width: 133vw;
+   height: 458px;
+   top: 3525px;
+
+   display: block;
+   
+}
+
+.newsletter-section{
+   color: white;
+   position: absolute; 
+   left: 22rem;
+   margin: 6.2rem;
+   
+}
+
+
+.newsletter-section h2{
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 123.3%;
+   color: #FFFFFF;
+
+}
+
+.newsletter-section h3{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 31px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   top: 6rem;
+   position: absolute;
+   width: 595px;
+   left: -2rem;
+}
+
+#btn4{
+   position: absolute;
+   left:-3rem;
+   color: rgb(119, 118, 118);
+   top:12.9rem; 
+}
+ .email{ 
+   margin-top: 7.5rem; 
+   margin-left: -4rem;
+   
+   
+ }
+
+ input[type=button] {
+   position: absolute;
+   width: 134px;
+   height: 60px;
+   left: 480px;
+   bottom: 1.5rem;
+   background: white;
+   border: 2px solid #FFFFFF;
+   border-radius: 8px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 90%;
+   text-align: center;
+   color: #000000;  
+   text-transform: uppercase; 
+       
+}
+
+
+
+footer{
+   position: absolute;
+   width: 1440px;
+   height: 241px;
+   top: 3950px;
+
+   background: url(./img/Rectangle\ 27.png);
+   
+   }
+   
+   footer img{
+      position: absolute;
+      margin: 4rem 5rem;
+   }
+   
+   .bb{
+      color: black;
+      font-weight: 500;
+   }
+   
+   
+   .developer{
+      position: absolute;
+      width: 1440px;
+      height: 105px;
+      left: 0px;
+      top: 4175px;
+      background: #13151A;
+   
+   }
+   .developer h2{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF;
+   position: absolute;
+   width: 301px;
+   height: 19px;
+   left: 569px;
+   top:2.5rem;
+   }
+   
+   
+   
+   
+   .ppp{
+      
+      display: flex;
+      position: absolute;
+      gap: 4rem;
+      top: 3rem;
+      left:31rem;
+     
+   }
+   .footer-section{
+      font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 39px;
+   color: #808080;
+   
+   }
+   
+   
+   .DDD{
+   
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #808080;
+   }
+   .icon{
+      position: absolute;
+      top: 3rem;
+      left: 74rem; 
+   
+   }
+   
+   .icon i{
+      color:  #828282;
+      padding: 3px;
+   }

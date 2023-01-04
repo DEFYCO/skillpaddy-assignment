@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Playfair+Display:wght@600&display=swap');
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+   }
+ 
+
+   .first-section{
+    background: url(./img/alesia-kazantceva-XLm6-fPwK5Q-unsplash\ 1\ \(1\).png);
+    width: 1440px;
+    height: 870px;;
+    position: relative;
+   display: block;}
+
+
+   .first-sectionpadding{
+    padding: 3rem 5.5rem;
+ }
+ 
+  .nav-line{
+    display: inline-flex;
+    gap: 1.5rem;
+    list-style:none ;
+    text-align: center;
+    top: 4.5rem;
+    position: absolute;
+    left: 26.5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 14.5px;
+    line-height: 90%;}
+
+ 
+
+ a{
+    color: white;
+    text-decoration: none;}
+ 
+
+
+ a:hover{
+    color:  #808080;
+    text-decoration: underline;
+
+ }
+
+ a:active{
+    font-weight: 600;
+ }
+ .left-side{
+    left: 70rem;
+    bottom: 48rem;
+    position: absolute;
+ }
+
+ i{
+    color: white;
+
+ }
+
+ button{
+    color: white;
+    background: none;
+    border-radius: 9px;
+    border: solid white 2px;
+    padding:15.6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+   font-size: 14px;
+   line-height: 90%;
+
+ }
+
+
+.nav-body h2{
+   font-family: 'Playfair Display';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 48px;
+   line-height: 123.3%;
+   color: #FFFFFF;
+   position: absolute;
+   left: 550px;
+   top: 186px;
+   }
+
+   form{
+      top:18rem;
+      left: 28rem;
+      position: absolute;
+    }
+   input{
+      background: #FFFFFF;
+      border-radius: 8px;
+      border: none;
+      width: 529px;
+      height: 60px;
+      text-align: right;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      
+   }
+   
+   textarea{
+        
+         width: 529px;
+         height: 127px;
+         left: 459px;
+         top: 4285px;
+         background: #FFFFFF;
+         border-radius: 8px;
+         font-family: 'Inter';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 16px;
+         line-height: 19px;
+         color: #808080;
+   }
+   input::placeholder{ 
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #808080;
+      left: 3rem;
+      position: absolute;
+      top: 1rem;}
+   
+   
+   
+      #btn{
+         position: absolute;
+         left:1rem;
+         color: rgb(148, 144, 144);
+         top:1.2rem;
+        
+      }
+   
+      #btn1{
+         position: absolute;
+         left:1rem;
+         color: rgb(148, 144, 144);
+         top:6.5rem;
+        
+      }
+   
+      #btn2{
+         position: absolute;
+         left:1rem;
+         color: rgb(148, 144, 144);
+         top:11.8rem;
+        
+      }
+   
+   
+   
+   input[type=submit] {
+     
+      padding: 26px;
+      gap: 10px;
+      position: absolute;
+      width: 177px;
+      height: 60px;
+      left: 145px;
+      top: 422px;
+      background: white;
+      border: 2px solid #FFFFFF;
+      border-radius: 8px;
+      text-transform: uppercase;
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 16px;
+      line-height: 90%;
+      color: #050505;
+        
+          
+   }
+   input:focus {
+     
+      border:  none;}
+   
+   
+   #arrows{color: black;
+      top: 28.5rem;
+      left: 18.5rem;
+      position: absolute;
+      
+
+
+}
+
+footer{
+   position: absolute;
+   width: 1440px;
+   height: 241px;
+   top: 870px;
+
+   background: url(./img/Rectangle\ 27.png);
+   
+   }
+   
+   footer img{
+      position: absolute;
+      margin: 4rem 5rem;
+   }
+   .bb{
+      color: black;
+   }
+   
+   
+   
+   .developer{
+      position: absolute;
+      width: 1440px;
+      height: 105px;
+      left: 0px;
+      top: 1103px;
+      background: #13151A;
+   
+   }
+   .developer h2{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #FFFFFF;
+   position: absolute;
+   width: 301px;
+   height: 19px;
+   left: 569px;
+   top:2.5rem;
+   }
+   
+   
+   
+   
+   .ppp{
+      
+      display: flex;
+      position: absolute;
+      gap: 4rem;
+      top: 3rem;
+      left:31rem;
+     
+   }
+   .footer-section{
+      font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 39px;
+   color: #808080;
+   
+   }
+   
+   
+   .DDD{
+   
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   color: #808080;
+   }
+   .icon{
+      position: absolute;
+      top: 3rem;
+      left: 74rem; 
+   
+   }
+   
+   .icon i{
+      color:  #828282;
+      padding: 3px;
+   }
+
